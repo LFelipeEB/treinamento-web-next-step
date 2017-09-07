@@ -17,6 +17,24 @@ window.fbAsyncInit = function() {
     });
 };
 
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=854992731325850";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+function logout() {
+    FB.logout(function(response) {
+        console.log(response);
+
+        location.reload();
+    });
+}
+
+
+
 function statusChangeCallback(response) {
     console.log('statusChangeCallback');
     console.log(response);
@@ -36,23 +54,6 @@ function statusChangeCallback(response) {
         document.getElementById('status').innerHTML = 'Please log ' +
             'into this app.';
     }
-}
-
-(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=854992731325850";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-
-function logout() {
-    FB.logout(function(response) {
-        console.log(response);
-
-
-        location.reload();
-    });
 }
 
 function login() {
@@ -78,4 +79,10 @@ function shared() {
         // Debug response (optional)
         console.log(response);
     });
+}
+
+function analytics() {
+    FB.AppEvents.logEvent("clickNoAnalytics");
+
+    console.log("ClickNoANalytics Disparado");
 }
