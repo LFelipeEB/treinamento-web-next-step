@@ -1,0 +1,15 @@
+{
+  "name": "curiculo",
+  "version": "1.0.0",
+  "description": "Curriculo foi o primeiro desafio do treinamento de Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luiz Felipe Evaristo",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "purecss": "^1.0.0"
+  }
+}

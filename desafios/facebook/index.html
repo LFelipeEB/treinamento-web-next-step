@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tarefa do Treinamento de WEB com um thema da WEB">
+
+    <link rel="stylesheet" href="node_modules/purecss/build/pure-min.css">
+    <link rel="stylesheet" href="node_modules/purecss/build/base-min.css">
+    <link rel="stylesheet" href="node_modules/purecss/build/grids-responsive-min.css">
+    <script src="https://use.fontawesome.com/ca97c7f978.js"></script>
+
+    <link rel="stylesheet" href="css/style-fb.css">
+
+
+</head>
+<body>
+<div id="fb-root"></div>
+
+<!--
+<div class="fb-save" data-uri="https://www.instagram.com/facebook/" data-size="large"></div>
+-->
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">API do Facebook</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="../openweather" class="pure-menu-link">API de Tempo</a></li>
+            <li class="pure-menu-item" id="btn-shared"><a class="pure-menu-link" onclick="shared()">Compartilhar Pagina</a></li>
+            <li class="pure-menu-item" id="nav-login" onclick="login()"><a class="pure-menu-link">Login com Facebook</a></li>
+            <li class="pure-menu-item" id="nav-logout" onclick="logout()"><a class="pure-menu-link">Logout</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">Luiz Felipe Evaristo</h1>
+        <p class="splash-subhead">
+            Gerente de Projetos Next Step JR
+        </p>
+        <p>
+            <button class="pure-button pure-button-primary" onclick="login()" id="btnLoginFB">Login com Facebook</button>
+        </p>
+
+        <h1 id="bv-fb" class="" style="color: white">BEM-VINDO, </h1>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="content">
+        <h2 class="content-head is-center">Certificações</h2>
+
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-calculator"></i>
+                    Matemática Financeiro de um jeito facil
+                </h3>
+                <p>
+                    por Floriano Peixoto (Udemy) em Abril de 2017
+                </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-free-code-camp"></i>
+                    Front-end Development Certification
+                </h3>
+                <p>
+                    por Free Code Camp (FCC) em Janeiro de 2017
+                </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-leaf"></i>
+                    M101P: MongoDB for Developers
+                </h3>
+                <p>
+                    por MongoDB Inc em Janeiro de 2016
+                </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-code"></i>
+                    Shapping up with Angular.JS e The Magical Marvels of MongoDB
+                </h3>
+                <p>
+                    por Code School
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pure-g">
+        <div class="ribbon">
+            <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+                <img width="100" alt="Foto do Perfil" class="pure-img-responsive cicle-img" src="../img/perfil.jpg">
+            </div>
+
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+                <h2 class="content-head content-head-ribbon">Resumo</h2>
+                <p>
+                    Graduando em Sistemas de Informação pela UFVJM em Diamantina, Minas Gerais. Estou CTO na Lucky World, gerente da mais nova equipe de projetos da NextStepJr. Sou apaixonado pela maneira que as Startups solucionam os problemas da nosso dia a dia. Participar de ações empreendedoras, como Organizar Startup Weekend e e outros eventos da aŕea é minha paixão. http://luckyworld.com.br
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content">
+        <h2 class="content-head is-center">Projetos</h2>
+
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    Startup Weekend 2017
+
+                </h3>
+                <p>
+                    Organizador
+                </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-desktop"></i>
+                    DevWeekend
+                </h3>
+                <p>
+                    Organização
+                </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-car"></i>
+                    Partiu Facu - Carona para Faculdade em sua mão Co-Founder
+                </h3>
+                <p>
+                    CEO & Co-Founder
+                </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-usd"></i>
+                    Lucky World
+                </h3>
+                <p>
+                    CTO & CO-FOUNDER
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="footer l-box is-center">
+        MIT Licese® 2017 - Luiz Felipe Evaristo e NextStep
+    </div>
+
+</div>
+
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/script-fb.js"></script>
+</body>
+</html>

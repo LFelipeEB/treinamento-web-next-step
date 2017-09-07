@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Api de Tempo</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Treinamento</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="tempo">Tempo <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Treinamento Web - Avançado</h1>
+            <p class="lead">Nesta primeira parte o treinamento tem como objetivo colocar em pratica os conhecimento aprendidos com HTML, CSS e JavaScript. <br> Faremos uso de frameworks como Bootstrap. jQuery entre outros.</p>
+        </div>
+    </div>
+
+    <div class="container" id="form_container">
+        <div class="form-group">
+            <label for="cep">Nome da Cidade</label>
+            <input type="text" class="form-control" id="cep" aria-describedby="cepHelp" placeholder="Entre com o CEP">
+            <small id="emailHelp" class="form-text tec339d12131aef31ec0a8e399cbf64793xt-muted">Entre com o nomde da cidade que deseja saber o Clima atual.</small>
+        </div>
+        <p class="text-right">
+            <button class="btn btn-outline-primary pull-right" onclick="searchCEP()">Ler Cidade</button>
+        </p>
+    </div>
+
+    <div class="animated infinite flash" id="load-flash">
+        <p class="text-center">Aguarde Carregando ...</p>
+    </div>
+
+
+
+    <div class="container" id="result">
+        <h1 id="res-titulo">Clima em </h1>
+        <div class="col" id="temp"></div>
+        <div class="col" id="temp_max"></div>
+        <div class="col" id="temp_min"></div>
+        <div class="col" id="vento"></div>
+        <div class="col" id="humidade"></div>
+    </div>
+
+</main>
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
