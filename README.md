@@ -26,15 +26,20 @@ Segue os desafios passados para serem feitos durante o momento do treinamento.
 Tendo em vista os conceitos já apresentados até a momento(HTML, CSS, JS/jQuery). Neste desafio é solicitado que maninpule a API e mostre os dados em um formato agradavel(não sendo JSON). Após a leitura deve se contruido uma *view* com HTML e CSS.
 - [Facebook](https://developers.facebook.com): API do Facebook trabalha com conceitos diferente da tarefa anterior. Nesta tarefa é pedido que façam uso da primeira Tarefa(Curriculo), e construam a opção de o leitor do site possa efetuar login com Facebook e coletar dados para o Facebook Analytics.
 
-## Creating GIFs
+## Tarefas
 
-Embedding an animated gif in your README quickly demonstrates what your project does and catches the reader's eye.  Here are a few programs that can help you quickly create gifs for your project:
+Para treinar e avaliar os conceitos aprendidos dentro do treinamento ministrado. Após os conceitos ensinados serão cobrados blocos ou conhecimento espeficos sobre os temas. 
+Abaixo segue a lista de tarefas e quais conhecimentos serão cobrados.
 
-- [Gifox](https://gifox.io) - **$4** - Cleanest UI, hotkeys, lots of advanced features
-- [Giphy Capture](https://giphy.com/apps/giphycapture) - **FREE** - Easy to upload to giphy.com, slightly annoying UX.
-- [LICEcap](http://www.cockos.com/licecap/) - **FREE** - Less intuitive, more features
-- [Recordit](http://recordit.co/) - **FREE** - Simple, clean UI, but auto-uploads to [recordit.co](http://recordit.co)
-- [ttystudio](https://github.com/chjj/ttystudio) - **FREE** - For commandline tools, a terminal-to-gif recorder minus the headaches.
+- Curriculo: Construir um curriculo, utilizar recursos de HTML e CSS. Devem se atentar as novas tag's do HTML5 e os novos recursos do CSS3.
+- Redes Sociais: Criar uma aplicação, simbolica, para efetuar login com Facebook, Instagram, Twitter, Google+, GitHub, e crie um perfil para o usuario, atravez de um template.
+- NodeJS file changeled: Criar uma aplicação que trate as requisições com as rotas, permita preencher um formulario(Qualquer assunto), e salve em um arquivo.
+- ExpressJS: *Comming Soon*
+- SQL (Modelagem): *Comming Soon*
+- SQL (MySQL): *Comming Soon*
+- PHP (Puro, sem framework): *Comming Soon*
+- PHP (Framework [Laravel ou Cake]): *Comming Soon*
+- Final (Todas ferramentas): *Comming Soon*
 
 ## Tools
 
