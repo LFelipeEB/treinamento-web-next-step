@@ -33,7 +33,7 @@ Abaixo segue a lista de tarefas e quais conhecimentos serão cobrados.
 
 - Curriculo: Construir um curriculo, utilizar recursos de HTML e CSS. Devem se atentar as novas tag's do HTML5 e os novos recursos do CSS3.
 - Redes Sociais: Criar uma aplicação, simbolica, para efetuar login com Facebook, Instagram, Twitter, Google+, GitHub, e crie um perfil para o usuario, atravez de um template.
-- NodeJS file changeled: Criar uma aplicação que trate as requisições com as rotas, permita preencher um formulario(Qualquer assunto), e salve em um arquivo.
+- NodeJS file chagellend: Criar uma aplicação que trate as requisições com as rotas, permita preencher um formulario(Qualquer assunto), e salve em um arquivo. Depois permita fazer a leitura do arquivo e mostrar o resultado na tela.
 - ExpressJS: *Comming Soon*
 - SQL (Modelagem): *Comming Soon*
 - SQL (MySQL): *Comming Soon*

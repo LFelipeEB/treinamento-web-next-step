@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "1.0.0",
+  "description": "Tarefa de escrita e leitura de arquivos com NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Luiz Felipe Evaristo <lfelipeeb@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "body-parser": "^1.8.1",
+    "popper.js": "^1.12.5"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+
+    <meta charset="UTF-8">
+    <title>NodeFile</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h1 class="text-center">Contato telefonicos</h1>
+
+<h3 class="text-center">Insira seu contato: </h3>
+
+<div class="container">
+<form method="post" action="/">
+    <div class="form-group">
+        <label for="email">Email: </label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelper" placeholder="Entre com email" name="email">
+        <small id="emailHelper" class="form-text text-muted">Nunca vamos compartilhar seu email</small>
+    </div>
+    <div class="form-group">
+        <label for="name">Nome: </label>
+        <input type="text" class="form-control" id="name" aria-describedby="nameHelper" placeholder="Entre com nome" name="name">
+        <small id="nameHeler" class="form-text text-muted">Precisamos do seu nome:</small>
+    </div>
+    <div class="form-group">
+        <label for="whatsapp">Whatsapp </label>
+        <input type="tel" class="form-control" id="whatsapp" aria-describedby="wppHelper" placeholder="Melhor forma de contato que Whatsapp ?" name="whatsapp">
+        <small id="wppHelper" class="form-text text-muted">Seu whatsapp é privado, não vamos compartilhar</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+
+    <a href="/results" class="btn btn-primary">Ver listas de contatos</a>
+
+</form>
+
+
+</div>
+
+</body>
+</html>
