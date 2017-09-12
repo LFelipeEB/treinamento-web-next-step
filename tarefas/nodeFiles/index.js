@@ -4,6 +4,7 @@
  *
  */
 
+
 var express = require('express');
 var express_app = express();
 var bodyParser = require("body-parser");
@@ -49,7 +50,7 @@ express_app.post("/", function (req, res) {
     });
 });
 
-express_app.get("/results", function (req, res) {
+express_app.get("/contatos", function (req, res) {
     fs.readFile(FILE, function(err, data) {
         if (err) throw err;
         var dados = data.toString();
