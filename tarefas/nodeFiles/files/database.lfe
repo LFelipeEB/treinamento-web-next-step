@@ -1,1 +1,1 @@
-[{"email":"lfelipeeb@gmail.com"},{"email":"email@email.com"},{"email":"evaristo.barbosa@hotmail.com","name":"Luiz Felipe","whatsapp":"33991316542"},{"email":"","name":"","whatsapp":""}]
+[{"email":"lfelipeeb@gmail.com"},{"email":"email@email.com"},{"email":"evaristo.barbosa@hotmail.com","name":"Luiz Felipe","whatsapp":"33991316542"},{"email":"","name":"","whatsapp":""},{"email":"nextstep@email.com","name":"NextStep","whatsapp":"35313437489567"}]
