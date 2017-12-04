@@ -1,0 +1,12 @@
+{
+    "name": "pc/t-agenda1",
+    "authors": [
+        {
+            "name": "Cristian Fernandes",
+            "email": "cristianfernandes2013@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.9.1"
+    }
+}
