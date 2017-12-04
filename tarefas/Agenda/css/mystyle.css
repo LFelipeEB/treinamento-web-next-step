@@ -1,0 +1,13 @@
+.botao1{
+	background: #fff;
+	border: 1px solid #ccc;
+	
+}
+
+.botao1:hover{
+
+	background: #F8F9FA;
+	border: 1px solid black;
+
+
+}
